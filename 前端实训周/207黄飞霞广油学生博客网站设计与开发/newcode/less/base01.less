@@ -1,0 +1,51 @@
+
+//2131313112
+@color:#e61e25;
+.box{
+   color: @color;
+  width: 200px;
+  height: 200px;
+  background: @color;
+  .border5px;
+ }
+
+h1{
+  background-color: @color;
+}
+/*121231321212*/
+
+
+.border5px(@radius:5px,@border: 5px solid blue){
+    border-radius: @radius;
+    border: @border;
+}
+
+@color1:#f7c3c5;
+@border:1px;
+
+
+.warp{
+  background: #e61e25;
+  width: 660px;
+  height:330px;
+  margin: auto;
+  overflow: hidden;
+  border: @border * 5 solid black;
+  .pa01{
+    margin-top: 30px;
+    p{
+      background: @color1;
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin: 5px;
+    }
+  }
+  .pa02{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    background: @color1;
+    clear: both;
+  }
+}

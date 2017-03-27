@@ -1,0 +1,37 @@
+.box {
+  color: #e61e25;
+  width: 200px;
+  height: 200px;
+  background: #e61e25;
+  border-radius: 5px;
+  border: 5px solid blue;
+}
+h1 {
+  background-color: #e61e25;
+}
+/*121231321212*/
+.warp {
+  background: #e61e25;
+  width: 660px;
+  height: 330px;
+  margin: auto;
+  overflow: hidden;
+  border: 5px solid black;
+}
+.warp .pa01 {
+  margin-top: 30px;
+}
+.warp .pa01 p {
+  background: #f7c3c5;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 5px;
+}
+.warp .pa02 {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  background: #f7c3c5;
+  clear: both;
+}
